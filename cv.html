@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV | Jade Lintott</title>
+    <meta
+      name="description"
+      content="Curriculum vitae overview for Jade Lintott."
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="site-background" aria-hidden="true"></div>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="site-brand" href="index.html">
+          <span class="site-brand__mark">JL</span>
+          <span>
+            <span class="site-brand__name">Jade Lintott</span>
+            <span class="site-brand__meta">PhD Student | Georgia Tech</span>
+          </span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          data-nav-toggle
+        >
+          Menu
+        </button>
+        <nav class="site-nav" aria-label="Primary" data-site-nav>
+          <a href="index.html">Home</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="research.html">Research</a>
+          <a href="cv.html" aria-current="page">CV</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero hero--page">
+          <div class="hero__content hero__content--narrow">
+            <p class="eyebrow">Curriculum Vitae</p>
+            <h1>A readable CV page with room for a downloadable PDF later.</h1>
+            <p class="hero__lede">
+              This page gives committees a quick summary now, and I can attach a
+              polished PDF link as soon as you send it.
+            </p>
+            <div class="hero__actions">
+              <span class="button button--disabled">PDF link ready to add</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-card">
+          <div class="section-heading">
+            <p class="eyebrow">Profile</p>
+            <h2>Professional snapshot</h2>
+          </div>
+          <p>
+            Add a two- or three-sentence summary of your scholarly and teaching
+            profile here. This is especially useful if someone lands on the CV page
+            before reading the rest of the site.
+          </p>
+        </section>
+
+        <section class="section-card">
+          <div class="section-heading">
+            <p class="eyebrow">Education</p>
+            <h2>Degrees and training</h2>
+          </div>
+          <ul class="timeline-list">
+            <li>
+              <span class="timeline-list__date">[Year]</span>
+              <div>
+                <strong>[Degree], [Institution]</strong>
+                <p>[Dissertation, committee, concentration, or honors]</p>
+              </div>
+            </li>
+            <li>
+              <span class="timeline-list__date">[Year]</span>
+              <div>
+                <strong>[Degree], [Institution]</strong>
+                <p>[Additional relevant details]</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section-card">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Appointments and teaching roles</h2>
+          </div>
+          <ul class="timeline-list">
+            <li>
+              <span class="timeline-list__date">[Year-Year]</span>
+              <div>
+                <strong>[Title], [Institution]</strong>
+                <p>[One line on scope, teaching area, or responsibilities]</p>
+              </div>
+            </li>
+            <li>
+              <span class="timeline-list__date">[Year-Year]</span>
+              <div>
+                <strong>[Title], [Institution]</strong>
+                <p>[One line on scope, teaching area, or responsibilities]</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section-card">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Items</p>
+            <h2>Publications, presentations, and service</h2>
+          </div>
+          <div class="card-grid">
+            <article class="info-card">
+              <h3>Publications</h3>
+              <ul class="feature-list">
+                <li>[Publication], [venue], [year]</li>
+                <li>[Publication], [venue], [year]</li>
+              </ul>
+            </article>
+            <article class="info-card">
+              <h3>Presentations</h3>
+              <ul class="feature-list">
+                <li>[Presentation], [conference], [year]</li>
+                <li>[Presentation], [conference], [year]</li>
+              </ul>
+            </article>
+            <article class="info-card">
+              <h3>Service and awards</h3>
+              <ul class="feature-list">
+                <li>[Award or fellowship]</li>
+                <li>[Committee, mentoring, or service role]</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Jade Lintott | CV</p>
+        <p>Updated automatically for display year: <span data-year></span>.</p>
+      </footer>
+    </div>
+  </body>
+</html>

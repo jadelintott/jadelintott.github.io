@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Academic site monogram</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#29405c" />
+      <stop offset="100%" stop-color="#b96045" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#bg)" />
+  <text
+    x="32"
+    y="39"
+    fill="#fff8f0"
+    font-family="Avenir Next, Segoe UI, Helvetica Neue, sans-serif"
+    font-size="22"
+    font-weight="700"
+    text-anchor="middle"
+  >
+    JL
+  </text>
+</svg>
